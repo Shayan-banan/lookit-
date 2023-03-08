@@ -1,0 +1,308 @@
+{
+    "frames": {
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "Here is where you provide debriefing information for the family. This is a chance to explain the purpose of your study and how the family helped; at this point it's more obvious to the participant that skimming the info is fine if they're not super-interested, so you can elaborate in ways you might have avoided ahead of time in the interest of keeping instructions short. You may want to mention the various conditions kids were assigned to if you didn't before, and try to head off any concerns parents might have about how their child 'did' on the study, especially if there are 'correct' answers that will have been obvious to a parent. <br><br> It is great if you can link people to a layperson-accessible article on a related topic - e.g., media coverage of one of your previous studies in this research program, a talk on Youtube, a parenting resource. <br><br> If you are compensating participants, restate what the compensation is (and any conditions, and let them know when to expect their payment! E.g.: To thank you for your participation, we'll be emailing you a $4 Amazon gift card - this should arrive in your inbox within the next week after we confirm your consent video and check that your child is in the age range for this study. (If you don't hear from us by then, feel free to reach out!) If you participate again with another child in the age range, you'll receive one gift card per child.",
+                "title": "Thank you!"
+            }
+        },
+        "instructions": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "You might use a simple text frame like this one to give parents a broad overview of the study.",
+                    "listblocks": [
+                        {
+                            "text": "You should make sure to let them know (here or at some point before really getting started) that they will have a chance to select a video privacy level at the end of the study, and that they can leave at any point by pressing F1 or ctrl-X."
+                        },
+                        {
+                            "text": "Try those now - you will see a little box pop up asking if you really want to end the study, and taking you straight to the exit survey if so."
+                        },
+                        {
+                            "text": "If you close this window/tab, you will get a generic warning (it's not possible to override that!) and if you choose to stay you will see that same box."
+                        }
+                    ]
+                },
+                {
+                    "text": "This frame is an 'exp-lookit-text' frame, and you can find the text you're reading right now in the JSON document for this study. Try editing it so it says something silly!"
+                },
+                {
+                    "text": "You can learn more about the frames available, and how to customize each one, in the frame documentation. Here's the <a href='https://lookit.readthedocs.io/projects/frameplayer/en/latest/components/exp-lookit-text/doc.html' target='_blank'>exp-lookit-text frame doc.</a>."
+                }
+            ],
+            "showPreviousButton": false
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "This is a standard frame you probably want to put at the very start of your study. You can customize this bit of text; the rest is standard and maintained by Lookit."
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
+            "PIName": "Jane Smith",
+            "institution": "Science University",
+            "PIContact": "Jane Smith at 123 456 7890",
+            "purpose": "Why do babies love cats? This study will help us find out whether babies love cats because of their soft fur or their twitchy tails.",
+            "procedures": "Your child will be shown pictures of lots of different cats, along with noises that cats make like meowing and purring. We are interested in which pictures and sounds make your child smile. We will ask you (the parent) to turn around to avoid influencing your child's responses.",
+            "risk_statement": "There are no expected risks if you participate in the study. (This is optional, but should typically be included. If you leave it out there's no 'risks' section and you should include risk information elsewhere.)",
+            "voluntary_participation": "There are two sessions in this study; you will be invited to complete another session next month. It is okay not to do both sessions! (This is optional; leave it out if you don't need to say anything besides participation in this session being voluntary.)",
+            "payment": "After you finish the study, we will email you a $5 BabyStore gift card within approximately three days. To be eligible for the gift card your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
+            "datause": "We are primarily interested in your child's emotional reactions to the images and sounds. A research assistant will watch your video to measure the precise amount of delight in your child's face as he or she sees each cat picture.",
+            "include_databrary": true,
+            "additional_video_privacy_statement": "We will also ask your permission to use your videos as stimuli for other parents. (This is optional; leave it out if there aren't additional ways you'll share video beyond as described in the participant's video privacy level and Databrary selections.)",
+            "gdpr": false,
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study.  If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the [IRB NAME], [INSTITUTION], [ADDRESS/CONTACT]"
+        },
+        "video-preview": {
+            "kind": "exp-lookit-stimuli-preview",
+            "blocks": [
+                {
+                    "text": "During the videos, we'll ask that you hold your child over your shoulder like this, so that you face away from the screen.",
+                    "image": {
+                        "alt": "Father holding child looking over his shoulder",
+                        "src": "https://s3.amazonaws.com/lookitcontents/exp-physics/OverShoulder.jpg"
+                    }
+                },
+                {
+                    "text": "The reason we ask this is that your child is learning from you all the time. Even if he or she can't see where you're looking, you may unconsciously shift to face the \"unexpected\" events and influence your child's attention. We want to make sure we're measuring your child's own intuitions, rather than yours! (We know YOU know whether things should fall up or down.)"
+                },
+                {
+                    "text": "If you'd like to see the videos your child will be shown, you can take a look ahead of time now. It's important that you do this WITHOUT your child, so that the videos will still be new to him or her!"
+                },
+                {
+                    "text": "(This is an 'exp-lookit-stimuli-preview' frame.)"
+                }
+            ],
+            "stimuli": [
+                {
+                    "video": [
+                        {
+                            "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/example_intro.webm",
+                            "type": "video/webm"
+                        },
+                        {
+                            "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/example_intro.mp4",
+                            "type": "video/mp4"
+                        }
+                    ],
+                    "caption": "Before each pair of event videos, a woman introduces the object that will appear. Here's an example."
+                },
+                {
+                    "video": [
+                        {
+                            "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/0_introsA.webm",
+                            "type": "video/webm"
+                        },
+                        {
+                            "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/0_introsA.mp4",
+                            "type": "video/mp4"
+                        }
+                    ],
+                    "caption": "Here are the other object introduction videos that might be shown. "
+                }
+            ],
+            "skipButtonText": "Skip preview",
+            "previewButtonText": "Preview the videos (my child cannot see the screen)",
+            "showPreviousButton": true
+        },
+        "video-quality": {
+            "kind": "exp-video-config-quality",
+            "title": "Webcam setup for preferential looking",
+            "introText": "We'll be analyzing where your child chooses to look during the videos--but only if we can tell where that is! Please check each of the following to ensure we're able to use your video: (This is an exp-video-config-quality frame. You can customize what the instructions are, whether participants have to check them off, and whether they have to create and play back a sample recording. Next, we will go through a few trials of the intuitive physics study, which is a preferential looking study for infants, and then this example study will be done!",
+            "showRecordMenu": true,
+            "requireTestVideo": true,
+            "completedItemText": "Did it!",
+            "instructionBlocks": [
+                {
+                    "text": "<strong>Make sure the webcam you're using is roughly centered</strong> relative to this monitor. This makes it much easier for us to tell whether your child is looking to the left or right!",
+                    "image": {
+                        "alt": "Example images of using centered external webcam on monitor or built-in webcam on laptop.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/centering.png"
+                    }
+                },
+                {
+                    "text": "<strong>Turn off any other monitors</strong> connected to your computer, besides the one with the centered webcam. (If there's just one monitor, you're all set!)",
+                    "image": {
+                        "alt": "Example images showing laptop screen turned off if using external monitor and webcam, or external monitor turned off if using built-in webcam and laptop screen.",
+                        "src": "https://s3.amazonaws.com/lookitcontents/website/monitors.png"
+                    }
+                }
+            ],
+            "requireItemConfirmation": true,
+            "recordingInstructionText": "You should be able to see your camera view above. You can create and view a short recording to see how your setup looks."
+        },
+        "example-survey": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Here's a simple example survey! (This is an 'exp-lookit-survey' frame.)",
+                    "properties": {
+                        "age": {
+                            "type": "integer",
+                            "title": "Age",
+                            "maximum": 200,
+                            "minimum": 0,
+                            "required": true
+                        },
+                        "name": {
+                            "type": "string",
+                            "title": "Name",
+                            "required": true
+                        },
+                        "species": {
+                            "enum": [
+                                "dog",
+                                "cat",
+                                "fish",
+                                "bird",
+                                "raccoon"
+                            ],
+                            "type": "string",
+                            "title": "What type of animal?",
+                            "default": ""
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "age": {
+                            "numericEntry": true
+                        },
+                        "name": {
+                            "placeholder": "a name..."
+                        },
+                        "species": {
+                            "type": "radio",
+                            "message": "Seriously, what species??",
+                            "validator": "required-field"
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Moving on..."
+        },
+        "play-video-twice": {
+            "kind": "exp-lookit-video",
+            "video": {
+                "top": 10,
+                "left": 25,
+                "loop": false,
+                "width": 50,
+                "source": "cropped_apple"
+            },
+            "backgroundColor": "white",
+            "autoProceed": true,
+            "parentTextBlock": {
+                "text": "If your child needs a break, just press the space bar to pause!"
+            },
+            "requiredDuration": 0,
+            "requireAudioCount": 0,
+            "requireVideoCount": 2,
+            "doRecording": true,
+            "frameOffsetAfterPause": 0,
+            "pauseAudio": "pause",
+            "pauseVideo": "attentiongrabber",
+            "unpauseAudio": "return_after_pause",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "audioTypes": [
+                "ogg",
+                "mp3"
+            ],
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ]
+        },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "This is an 'exp-lookit-instructions' frame.",
+                    "listblocks": [
+                        {
+                            "text": "See https://lookit.readthedocs.io/projects/frameplayer/en/latest/components/exp-lookit-instructions/doc.html. In this frame, you can display any text, audio, images, and video you want, and can optionally require participants to play audio/video segments to move on. You can also choose whether to display the webcam."
+                        },
+                        {
+                            "text": "We recommend looking at the template studies for inspiration about how to present instructions to participants."
+                        }
+                    ]
+                },
+                {
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "image": {
+                        "alt": "Father holding child looking over his shoulder",
+                        "src": "https://s3.amazonaws.com/lookitcontents/exp-physics/OverShoulder.jpg"
+                    },
+                    "title": "Lorem ipsum dolor sit amet"
+                },
+                {
+                    "text": "An example of an audio file that has to be played to continue",
+                    "title": "Test",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go?'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                },
+                {
+                    "text": "An example of a video file that doesn't have to be played to continue",
+                    "title": "Test",
+                    "mediaBlock": {
+                        "text": "Look at that.",
+                        "isVideo": true,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/7_control_same.mp4",
+                                "type": "video/mp4"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/examples/7_control_same.webm",
+                                "type": "video/webm"
+                            }
+                        ],
+                        "mustPlay": false
+                    }
+                }
+            ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {
+                    "title": "Getting in position",
+                    "listblocks": [
+                        {
+                            "text": "Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?"
+                        },
+                        {
+                            "text": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Start the study!"
+        }
+    },
+    "sequence": [
+        "video-config",
+        "video-consent",
+        "instructions",
+        "video-preview",
+        "example-survey",
+        "final-instructions",
+        "video-quality",
+        "play-video-twice",
+        "exit-survey"
+    ]
+}
